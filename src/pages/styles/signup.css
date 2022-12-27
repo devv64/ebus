@@ -1,0 +1,76 @@
+/* Add some basic styling to the page */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the main container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Style the button container */
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Style the buttons */
+  .school__btn,
+  .student__btn,
+  .bus__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Add some hover effects to the buttons */
+  .school__btn:hover,
+  .student__btn:hover,
+  .bus__btn:hover {
+    background-color: #627a30;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  /* Add some active effects to the buttons */
+  .school__btn:active,
+  .student__btn:active,
+  .bus__btn:active {
+    background-color: #627a30;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+  }
+  
+  /* Style the button links */
+  .school__btn a,
+  .student__btn a,
+  .bus__btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  

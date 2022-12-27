@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles/home.css';
 import schoolImg from './school.png';
 import { Link, useNavigate } from 'react-router-dom'
 
